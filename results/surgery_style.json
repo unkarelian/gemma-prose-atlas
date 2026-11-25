@@ -1,0 +1,38 @@
+{
+ "base": {
+  "rain": 0.594,
+  "slop_word": 42.95,
+  "wasnt_it_was": 2.016,
+  "ly_adverb": 27.342,
+  "abstract": 24.471,
+  "exclaim": 0.156,
+  "question": 1.959,
+  "sentL": 11.741,
+  "ttr": 0.628,
+  "names": 0.516
+ },
+ "lora_human": {
+  "rain": 0.0,
+  "slop_word": 4.761,
+  "wasnt_it_was": 0.318,
+  "ly_adverb": 8.614,
+  "abstract": 8.324,
+  "exclaim": 4.298,
+  "question": 9.342,
+  "sentL": 10.215,
+  "ttr": 0.46,
+  "names": 0.0
+ },
+ "human (same prompts)": {
+  "rain": 0.0,
+  "slop_word": 8.139,
+  "wasnt_it_was": 0.052,
+  "ly_adverb": 12.95,
+  "abstract": 8.989,
+  "exclaim": 2.13,
+  "question": 6.272,
+  "sentL": 13.237,
+  "ttr": 0.58,
+  "names": 0.016
+ }
+}

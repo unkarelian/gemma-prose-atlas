@@ -1,0 +1,254 @@
+{
+ "unedited": {
+  "p_target": 0.6923,
+  "top": [
+   [
+    " rain",
+    0.692
+   ],
+   [
+    " first",
+    0.03
+   ],
+   [
+    " air",
+    0.026
+   ],
+   [
+    " hum",
+    0.019
+   ],
+   [
+    " shimmer",
+    0.018
+   ]
+  ],
+  "kl": {
+   "human": 0.0,
+   "gemma": 0.0,
+   "claude": 0.0,
+   "requests": 0.0
+  },
+  "nll": {
+   "human": 5.761,
+   "gemma": 0.584,
+   "claude": 5.286,
+   "requests": 3.022
+  }
+ },
+ "exact run-time ablation": {
+  "p_target": 0.0899,
+  "top": [
+   [
+    " rain",
+    0.09
+   ],
+   [
+    " air",
+    0.077
+   ],
+   [
+    " first",
+    0.054
+   ],
+   [
+    " shimmer",
+    0.05
+   ],
+   [
+    " world",
+    0.044
+   ]
+  ],
+  "kl": {
+   "human": 0.09709,
+   "gemma": 0.2087,
+   "claude": 0.13519,
+   "requests": 0.00796
+  },
+  "kl_max_token": {
+   "human": 4.982,
+   "gemma": 6.719,
+   "claude": 6.719,
+   "requests": 1.008
+  },
+  "nll": {
+   "human": 5.504,
+   "gemma": 0.809,
+   "claude": 5.028,
+   "requests": 2.963
+  }
+ },
+ "baked into weights": {
+  "p_target": 0.0766,
+  "top": [
+   [
+    " air",
+    0.081
+   ],
+   [
+    " rain",
+    0.077
+   ],
+   [
+    " first",
+    0.058
+   ],
+   [
+    " shimmer",
+    0.051
+   ],
+   [
+    " world",
+    0.047
+   ]
+  ],
+  "kl": {
+   "human": 0.08729,
+   "gemma": 0.1937,
+   "claude": 0.11914,
+   "requests": 0.00741
+  },
+  "kl_max_token": {
+   "human": 4.714,
+   "gemma": 6.957,
+   "claude": 7.201,
+   "requests": 0.898
+  },
+  "nll": {
+   "human": 5.486,
+   "gemma": 0.793,
+   "claude": 5.01,
+   "requests": 2.961
+  }
+ },
+ "projection baseline": {
+  "p_target": 0.4576,
+  "top": [
+   [
+    " rain",
+    0.458
+   ],
+   [
+    " world",
+    0.061
+   ],
+   [
+    " first",
+    0.043
+   ],
+   [
+    " name",
+    0.038
+   ],
+   [
+    " smell",
+    0.025
+   ]
+  ],
+  "kl": {
+   "human": 0.57142,
+   "gemma": 0.6623,
+   "claude": 0.61879,
+   "requests": 0.38839
+  },
+  "kl_max_token": {
+   "human": 12.149,
+   "gemma": 9.685,
+   "claude": 9.635,
+   "requests": 7.088
+  },
+  "nll": {
+   "human": 6.19,
+   "gemma": 1.235,
+   "claude": 5.691,
+   "requests": 3.265
+  }
+ },
+ "baked, random features (control)": {
+  "p_target": 0.6935,
+  "top": [
+   [
+    " rain",
+    0.694
+   ],
+   [
+    " first",
+    0.028
+   ],
+   [
+    " air",
+    0.027
+   ],
+   [
+    " hum",
+    0.02
+   ],
+   [
+    " shimmer",
+    0.017
+   ]
+  ],
+  "kl": {
+   "human": 0.00121,
+   "gemma": 0.00149,
+   "claude": 0.00207,
+   "requests": 0.00168
+  },
+  "kl_max_token": {
+   "human": 0.044,
+   "gemma": 0.1,
+   "claude": 0.279,
+   "requests": 0.291
+  },
+  "nll": {
+   "human": 5.753,
+   "gemma": 0.586,
+   "claude": 5.279,
+   "requests": 3.021
+  }
+ },
+ "exact, random features (control)": {
+  "p_target": 0.6936,
+  "top": [
+   [
+    " rain",
+    0.694
+   ],
+   [
+    " first",
+    0.029
+   ],
+   [
+    " air",
+    0.027
+   ],
+   [
+    " hum",
+    0.02
+   ],
+   [
+    " shimmer",
+    0.017
+   ]
+  ],
+  "kl": {
+   "human": 0.00123,
+   "gemma": 0.00171,
+   "claude": 0.00247,
+   "requests": 0.00203
+  },
+  "kl_max_token": {
+   "human": 0.073,
+   "gemma": 0.377,
+   "claude": 0.704,
+   "requests": 0.412
+  },
+  "nll": {
+   "human": 5.754,
+   "gemma": 0.586,
+   "claude": 5.281,
+   "requests": 3.023
+  }
+ }
+}

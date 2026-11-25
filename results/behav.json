@@ -1,0 +1,1775 @@
+{
+ "rates": {
+  "wp/human": {
+   "n": 340,
+   "wasnt_it_was": 0.154,
+   "not_just": 0.077,
+   "simile_like": 0.895,
+   "as_if": 0.383,
+   "em_dash": 1.89,
+   "ellipsis": 2.784,
+   "semicolon": 0.921,
+   "colon": 0.657,
+   "tag_adverb": 0.204,
+   "bookism": 0.624,
+   "voice_barely": 0.032,
+   "list3": 2.713,
+   "emotion_pack": 0.154,
+   "something": 0.12,
+   "couldnt_help": 0.071,
+   "body_cliche": 0.057,
+   "eyes": 0.057,
+   "seemed": 0.36,
+   "air_silence": 0.045,
+   "moment": 0.115,
+   "just_adv": 6.041,
+   "ly_adverb": 13.428,
+   "said": 2.285,
+   "name": 19.027,
+   "i_pron": 26.519,
+   "and_start": 2.801,
+   "question": 6.656,
+   "exclaim": 3.072,
+   "number": 3.069,
+   "abstract": 9.764,
+   "sent_start": 83.973,
+   "sent_end": 83.973,
+   "para_start": 24.365,
+   "para_end": 24.365,
+   "quote_open": 13.713,
+   "quote_close": 13.713,
+   "dialogue": 13.713,
+   "narration": 15.351,
+   "short_sent": 17.951,
+   "long_sent": 1.972,
+   "first_sent": 2.173,
+   "slop_tri": 0.205,
+   "slop_word": 6.743,
+   "sent_len_mean": 13.151,
+   "sent_len_sd": 8.371,
+   "ttr_300": 0.579,
+   "para_words": 55.148,
+   "dialogue_share": 0.14
+  },
+  "wp/claude": {
+   "n": 300,
+   "wasnt_it_was": 0.338,
+   "not_just": 0.007,
+   "simile_like": 2.219,
+   "as_if": 0.605,
+   "em_dash": 0.222,
+   "ellipsis": 0.128,
+   "semicolon": 0.179,
+   "colon": 2.335,
+   "tag_adverb": 0.143,
+   "bookism": 0.323,
+   "voice_barely": 0.015,
+   "list3": 3.04,
+   "emotion_pack": 0.122,
+   "something": 0.316,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.014,
+   "eyes": 0.021,
+   "seemed": 0.136,
+   "air_silence": 0.014,
+   "moment": 0.172,
+   "just_adv": 3.505,
+   "ly_adverb": 6.885,
+   "said": 6.846,
+   "name": 23.586,
+   "i_pron": 25.074,
+   "and_start": 3.561,
+   "question": 2.578,
+   "exclaim": 0.301,
+   "number": 3.36,
+   "abstract": 6.166,
+   "sent_start": 91.053,
+   "sent_end": 91.053,
+   "para_start": 31.046,
+   "para_end": 31.046,
+   "quote_open": 14.237,
+   "quote_close": 14.237,
+   "dialogue": 14.237,
+   "narration": 16.323,
+   "short_sent": 25.7,
+   "long_sent": 2.724,
+   "first_sent": 2.158,
+   "slop_tri": 0.065,
+   "slop_word": 3.649,
+   "sent_len_mean": 11.378,
+   "sent_len_sd": 9.347,
+   "ttr_300": 0.589,
+   "para_words": 35.119,
+   "dialogue_share": 0.101
+  },
+  "wp/glm": {
+   "n": 300,
+   "wasnt_it_was": 0.239,
+   "not_just": 0.014,
+   "simile_like": 2.7,
+   "as_if": 0.463,
+   "em_dash": 10.14,
+   "ellipsis": 0.072,
+   "semicolon": 1.815,
+   "colon": 5.425,
+   "tag_adverb": 0.152,
+   "bookism": 0.397,
+   "voice_barely": 0.022,
+   "list3": 3.006,
+   "emotion_pack": 0.051,
+   "something": 0.159,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.014,
+   "eyes": 0.007,
+   "seemed": 0.007,
+   "air_silence": 0.036,
+   "moment": 0.13,
+   "just_adv": 2.35,
+   "ly_adverb": 5.566,
+   "said": 5.416,
+   "name": 22.249,
+   "i_pron": 21.107,
+   "and_start": 3.66,
+   "question": 1.931,
+   "exclaim": 0.172,
+   "number": 3.069,
+   "abstract": 8.285,
+   "sent_start": 88.184,
+   "sent_end": 88.184,
+   "para_start": 25.063,
+   "para_end": 25.063,
+   "quote_open": 11.802,
+   "quote_close": 11.802,
+   "dialogue": 11.802,
+   "narration": 13.915,
+   "short_sent": 22.777,
+   "long_sent": 2.799,
+   "first_sent": 2.171,
+   "slop_tri": 0.058,
+   "slop_word": 3.822,
+   "sent_len_mean": 11.879,
+   "sent_len_sd": 9.389,
+   "ttr_300": 0.607,
+   "para_words": 45.073,
+   "dialogue_share": 0.097
+  },
+  "books/human": {
+   "n": 603,
+   "wasnt_it_was": 0.152,
+   "not_just": 0.123,
+   "simile_like": 0.983,
+   "as_if": 0.84,
+   "em_dash": 3.163,
+   "ellipsis": 0.788,
+   "semicolon": 1.463,
+   "colon": 1.611,
+   "tag_adverb": 0.415,
+   "bookism": 0.649,
+   "voice_barely": 0.032,
+   "list3": 2.667,
+   "emotion_pack": 0.235,
+   "something": 0.206,
+   "couldnt_help": 0.011,
+   "body_cliche": 0.061,
+   "eyes": 0.068,
+   "seemed": 0.427,
+   "air_silence": 0.015,
+   "moment": 0.175,
+   "just_adv": 4.924,
+   "ly_adverb": 11.906,
+   "said": 5.504,
+   "name": 37.093,
+   "i_pron": 23.167,
+   "and_start": 4.331,
+   "question": 7.819,
+   "exclaim": 1.723,
+   "number": 1.014,
+   "abstract": 10.542,
+   "sent_start": 87.792,
+   "sent_end": 87.792,
+   "para_start": 29.271,
+   "para_end": 29.271,
+   "quote_open": 20.599,
+   "quote_close": 20.599,
+   "dialogue": 20.599,
+   "narration": 22.261,
+   "short_sent": 21.232,
+   "long_sent": 2.529,
+   "first_sent": 2.171,
+   "slop_tri": 0.164,
+   "slop_word": 6.911,
+   "sent_len_mean": 12.898,
+   "sent_len_sd": 9.254,
+   "ttr_300": 0.572,
+   "para_words": 54.665,
+   "dialogue_share": 0.197
+  },
+  "books/haiku": {
+   "n": 603,
+   "wasnt_it_was": 0.188,
+   "not_just": 0.043,
+   "simile_like": 1.521,
+   "as_if": 2.324,
+   "em_dash": 0.375,
+   "ellipsis": 0.079,
+   "semicolon": 0.08,
+   "colon": 1.311,
+   "tag_adverb": 0.494,
+   "bookism": 0.529,
+   "voice_barely": 0.093,
+   "list3": 3.759,
+   "emotion_pack": 0.206,
+   "something": 0.311,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.108,
+   "eyes": 0.029,
+   "seemed": 0.523,
+   "air_silence": 0.072,
+   "moment": 0.303,
+   "just_adv": 2.851,
+   "ly_adverb": 6.53,
+   "said": 6.48,
+   "name": 14.331,
+   "i_pron": 21.862,
+   "and_start": 2.823,
+   "question": 4.193,
+   "exclaim": 0.331,
+   "number": 0.17,
+   "abstract": 7.109,
+   "sent_start": 86.444,
+   "sent_end": 86.444,
+   "para_start": 24.495,
+   "para_end": 24.495,
+   "quote_open": 18.584,
+   "quote_close": 18.584,
+   "dialogue": 18.584,
+   "narration": 20.529,
+   "short_sent": 19.307,
+   "long_sent": 1.733,
+   "first_sent": 2.174,
+   "slop_tri": 0.101,
+   "slop_word": 6.906,
+   "sent_len_mean": 12.243,
+   "sent_len_sd": 8.484,
+   "ttr_300": 0.587,
+   "para_words": 47.691,
+   "dialogue_share": 0.18
+  },
+  "books/gpt": {
+   "n": 603,
+   "wasnt_it_was": 0.032,
+   "not_just": 0.022,
+   "simile_like": 0.475,
+   "as_if": 1.321,
+   "em_dash": 0.631,
+   "ellipsis": 0.014,
+   "semicolon": 1.334,
+   "colon": 1.249,
+   "tag_adverb": 0.067,
+   "bookism": 0.528,
+   "voice_barely": 0.057,
+   "list3": 2.879,
+   "emotion_pack": 0.075,
+   "something": 0.27,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.139,
+   "eyes": 0.077,
+   "seemed": 0.653,
+   "air_silence": 0.029,
+   "moment": 0.166,
+   "just_adv": 1.986,
+   "ly_adverb": 5.088,
+   "said": 6.58,
+   "name": 19.069,
+   "i_pron": 25.163,
+   "and_start": 2.524,
+   "question": 5.744,
+   "exclaim": 0.378,
+   "number": 0.212,
+   "abstract": 7.745,
+   "sent_start": 109.105,
+   "sent_end": 109.105,
+   "para_start": 38.305,
+   "para_end": 38.305,
+   "quote_open": 24.11,
+   "quote_close": 24.11,
+   "dialogue": 24.11,
+   "narration": 25.951,
+   "short_sent": 24.948,
+   "long_sent": 0.208,
+   "first_sent": 2.157,
+   "slop_tri": 0.06,
+   "slop_word": 7.942,
+   "sent_len_mean": 9.563,
+   "sent_len_sd": 5.779,
+   "ttr_300": 0.581,
+   "para_words": 30.005,
+   "dialogue_share": 0.192
+  },
+  "books/glm": {
+   "n": 603,
+   "wasnt_it_was": 0.202,
+   "not_just": 0.061,
+   "simile_like": 2.207,
+   "as_if": 2.038,
+   "em_dash": 8.57,
+   "ellipsis": 0.173,
+   "semicolon": 1.174,
+   "colon": 2.039,
+   "tag_adverb": 0.446,
+   "bookism": 0.522,
+   "voice_barely": 0.118,
+   "list3": 4.253,
+   "emotion_pack": 0.231,
+   "something": 0.488,
+   "couldnt_help": 0.007,
+   "body_cliche": 0.094,
+   "eyes": 0.07,
+   "seemed": 0.351,
+   "air_silence": 0.032,
+   "moment": 0.253,
+   "just_adv": 3.639,
+   "ly_adverb": 8.644,
+   "said": 6.553,
+   "name": 21.018,
+   "i_pron": 20.876,
+   "and_start": 4.283,
+   "question": 4.389,
+   "exclaim": 0.748,
+   "number": 0.21,
+   "abstract": 9.918,
+   "sent_start": 78.678,
+   "sent_end": 78.678,
+   "para_start": 22.748,
+   "para_end": 22.748,
+   "quote_open": 16.84,
+   "quote_close": 16.84,
+   "dialogue": 16.84,
+   "narration": 18.862,
+   "short_sent": 19.596,
+   "long_sent": 4.486,
+   "first_sent": 2.182,
+   "slop_tri": 0.133,
+   "slop_word": 7.395,
+   "sent_len_mean": 14.001,
+   "sent_len_sd": 10.879,
+   "ttr_300": 0.589,
+   "para_words": 52.817,
+   "dialogue_share": 0.167
+  },
+  "taste/approved": {
+   "n": 459,
+   "wasnt_it_was": 0.134,
+   "not_just": 0.014,
+   "simile_like": 0.277,
+   "as_if": 0.46,
+   "em_dash": 2.619,
+   "ellipsis": 0.005,
+   "semicolon": 1.185,
+   "colon": 0.247,
+   "tag_adverb": 0.051,
+   "bookism": 0.167,
+   "voice_barely": 0.005,
+   "list3": 2.727,
+   "emotion_pack": 0.086,
+   "something": 0.266,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.063,
+   "eyes": 0.0,
+   "seemed": 0.174,
+   "air_silence": 0.0,
+   "moment": 0.13,
+   "just_adv": 4.411,
+   "ly_adverb": 6.606,
+   "said": 6.787,
+   "name": 37.012,
+   "i_pron": 8.817,
+   "and_start": 3.09,
+   "question": 3.575,
+   "exclaim": 0.312,
+   "number": 0.005,
+   "abstract": 3.216,
+   "sent_start": 101.939,
+   "sent_end": 101.939,
+   "para_start": 36.999,
+   "para_end": 36.999,
+   "quote_open": 19.857,
+   "quote_close": 19.857,
+   "dialogue": 19.857,
+   "narration": 28.205,
+   "short_sent": 25.717,
+   "long_sent": 1.277,
+   "first_sent": 11.819,
+   "slop_tri": 0.026,
+   "slop_word": 2.856,
+   "sent_len_mean": 9.945,
+   "sent_len_sd": 6.453,
+   "ttr_300": 0.717,
+   "para_words": 34.956,
+   "dialogue_share": 0.164
+  },
+  "taste/rejected": {
+   "n": 459,
+   "wasnt_it_was": 0.028,
+   "not_just": 0.024,
+   "simile_like": 0.26,
+   "as_if": 0.55,
+   "em_dash": 1.086,
+   "ellipsis": 0.042,
+   "semicolon": 2.306,
+   "colon": 0.368,
+   "tag_adverb": 0.036,
+   "bookism": 0.175,
+   "voice_barely": 0.022,
+   "list3": 2.034,
+   "emotion_pack": 0.132,
+   "something": 0.111,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.172,
+   "eyes": 0.0,
+   "seemed": 0.07,
+   "air_silence": 0.0,
+   "moment": 0.289,
+   "just_adv": 2.613,
+   "ly_adverb": 5.251,
+   "said": 5.621,
+   "name": 43.218,
+   "i_pron": 6.744,
+   "and_start": 1.37,
+   "question": 1.597,
+   "exclaim": 0.338,
+   "number": 0.028,
+   "abstract": 5.785,
+   "sent_start": 101.959,
+   "sent_end": 101.959,
+   "para_start": 38.563,
+   "para_end": 38.563,
+   "quote_open": 17.313,
+   "quote_close": 17.313,
+   "dialogue": 17.313,
+   "narration": 28.227,
+   "short_sent": 23.067,
+   "long_sent": 0.853,
+   "first_sent": 15.966,
+   "slop_tri": 0.009,
+   "slop_word": 3.891,
+   "ttr_300": 0.765,
+   "para_words": 32.091,
+   "dialogue_share": 0.119,
+   "sent_len_mean": 9.996,
+   "sent_len_sd": 6.385
+  },
+  "wp/gemma": {
+   "n": 340,
+   "wasnt_it_was": 1.936,
+   "not_just": 0.104,
+   "simile_like": 1.667,
+   "as_if": 0.245,
+   "em_dash": 6.895,
+   "ellipsis": 6.279,
+   "semicolon": 0.859,
+   "colon": 1.047,
+   "tag_adverb": 0.135,
+   "bookism": 0.735,
+   "voice_barely": 0.386,
+   "list3": 5.193,
+   "emotion_pack": 0.935,
+   "something": 0.387,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.129,
+   "eyes": 0.032,
+   "seemed": 1.025,
+   "air_silence": 0.064,
+   "moment": 0.077,
+   "just_adv": 7.909,
+   "ly_adverb": 28.273,
+   "said": 1.385,
+   "name": 22.564,
+   "i_pron": 22.28,
+   "and_start": 5.225,
+   "question": 2.291,
+   "exclaim": 0.355,
+   "number": 1.311,
+   "abstract": 25.29,
+   "sent_start": 92.923,
+   "sent_end": 92.923,
+   "para_start": 20.837,
+   "para_end": 20.837,
+   "quote_open": 9.474,
+   "quote_close": 9.474,
+   "dialogue": 9.474,
+   "narration": 11.605,
+   "short_sent": 25.129,
+   "long_sent": 0.834,
+   "first_sent": 2.195,
+   "slop_tri": 1.282,
+   "slop_word": 42.31,
+   "sent_len_mean": 11.189,
+   "sent_len_sd": 7.921,
+   "ttr_300": 0.634,
+   "para_words": 50.64,
+   "dialogue_share": 0.075
+  },
+  "books/gemma": {
+   "n": 603,
+   "wasnt_it_was": 0.734,
+   "not_just": 0.117,
+   "simile_like": 1.749,
+   "as_if": 0.539,
+   "em_dash": 6.784,
+   "ellipsis": 5.274,
+   "semicolon": 0.452,
+   "colon": 0.555,
+   "tag_adverb": 0.247,
+   "bookism": 1.014,
+   "voice_barely": 0.997,
+   "list3": 5.187,
+   "emotion_pack": 1.501,
+   "something": 0.496,
+   "couldnt_help": 0.004,
+   "body_cliche": 0.073,
+   "eyes": 0.2,
+   "seemed": 0.901,
+   "air_silence": 0.121,
+   "moment": 0.225,
+   "just_adv": 8.203,
+   "ly_adverb": 22.994,
+   "said": 3.465,
+   "name": 17.8,
+   "i_pron": 15.424,
+   "and_start": 3.198,
+   "question": 3.951,
+   "exclaim": 0.625,
+   "number": 0.303,
+   "abstract": 23.907,
+   "sent_start": 88.334,
+   "sent_end": 88.334,
+   "para_start": 17.527,
+   "para_end": 17.527,
+   "quote_open": 16.621,
+   "quote_close": 16.621,
+   "dialogue": 16.621,
+   "narration": 18.641,
+   "short_sent": 20.336,
+   "long_sent": 0.913,
+   "first_sent": 2.202,
+   "slop_tri": 2.036,
+   "slop_word": 35.098,
+   "sent_len_mean": 11.954,
+   "sent_len_sd": 7.671,
+   "ttr_300": 0.634,
+   "para_words": 65.483,
+   "dialogue_share": 0.139
+  },
+  "wp/gemma_greedy": {
+   "n": 160,
+   "wasnt_it_was": 2.122,
+   "not_just": 0.055,
+   "simile_like": 1.423,
+   "as_if": 0.179,
+   "em_dash": 6.228,
+   "ellipsis": 5.874,
+   "semicolon": 0.767,
+   "colon": 0.889,
+   "tag_adverb": 0.137,
+   "bookism": 0.792,
+   "voice_barely": 0.409,
+   "list3": 4.79,
+   "emotion_pack": 1.176,
+   "something": 0.575,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.15,
+   "eyes": 0.042,
+   "seemed": 1.149,
+   "air_silence": 0.096,
+   "moment": 0.027,
+   "just_adv": 7.92,
+   "ly_adverb": 24.974,
+   "said": 1.6,
+   "name": 22.022,
+   "i_pron": 23.612,
+   "and_start": 4.999,
+   "question": 2.585,
+   "exclaim": 0.469,
+   "number": 1.683,
+   "abstract": 24.494,
+   "sent_start": 91.95,
+   "sent_end": 91.95,
+   "para_start": 20.727,
+   "para_end": 20.727,
+   "quote_open": 10.149,
+   "quote_close": 10.149,
+   "dialogue": 10.149,
+   "narration": 12.297,
+   "short_sent": 24.151,
+   "long_sent": 0.726,
+   "first_sent": 2.19,
+   "slop_tri": 1.775,
+   "slop_word": 41.114,
+   "sent_len_mean": 11.317,
+   "sent_len_sd": 7.793,
+   "ttr_300": 0.618,
+   "para_words": 50.761,
+   "dialogue_share": 0.074
+  },
+  "wp/gemma_lit": {
+   "n": 160,
+   "wasnt_it_was": 1.875,
+   "not_just": 0.097,
+   "simile_like": 1.655,
+   "as_if": 0.565,
+   "em_dash": 7.136,
+   "ellipsis": 3.798,
+   "semicolon": 0.939,
+   "colon": 0.827,
+   "tag_adverb": 0.18,
+   "bookism": 0.634,
+   "voice_barely": 0.481,
+   "list3": 4.938,
+   "emotion_pack": 0.718,
+   "something": 0.524,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.041,
+   "eyes": 0.055,
+   "seemed": 1.046,
+   "air_silence": 0.124,
+   "moment": 0.082,
+   "just_adv": 6.658,
+   "ly_adverb": 22.923,
+   "said": 0.827,
+   "name": 19.001,
+   "i_pron": 16.291,
+   "and_start": 3.956,
+   "question": 0.824,
+   "exclaim": 0.014,
+   "number": 0.828,
+   "abstract": 29.846,
+   "sent_start": 73.606,
+   "sent_end": 73.606,
+   "para_start": 16.599,
+   "para_end": 16.599,
+   "quote_open": 4.386,
+   "quote_close": 4.386,
+   "dialogue": 4.386,
+   "narration": 6.58,
+   "short_sent": 14.596,
+   "long_sent": 1.823,
+   "first_sent": 2.207,
+   "slop_tri": 1.239,
+   "slop_word": 50.381,
+   "sent_len_mean": 14.089,
+   "sent_len_sd": 8.943,
+   "ttr_300": 0.632,
+   "para_words": 62.687,
+   "dialogue_share": 0.032
+  },
+  "wp/gemma_plain": {
+   "n": 160,
+   "wasnt_it_was": 1.764,
+   "not_just": 0.028,
+   "simile_like": 0.805,
+   "as_if": 0.098,
+   "em_dash": 1.029,
+   "ellipsis": 4.622,
+   "semicolon": 0.014,
+   "colon": 1.137,
+   "tag_adverb": 0.085,
+   "bookism": 0.151,
+   "voice_barely": 0.404,
+   "list3": 1.546,
+   "emotion_pack": 0.26,
+   "something": 0.826,
+   "couldnt_help": 0.0,
+   "body_cliche": 0.0,
+   "eyes": 0.027,
+   "seemed": 0.262,
+   "air_silence": 0.042,
+   "moment": 0.276,
+   "just_adv": 6.425,
+   "ly_adverb": 9.819,
+   "said": 7.403,
+   "name": 11.48,
+   "i_pron": 40.524,
+   "and_start": 4.349,
+   "question": 3.259,
+   "exclaim": 0.122,
+   "number": 1.991,
+   "abstract": 11.925,
+   "sent_start": 209.982,
+   "sent_end": 209.982,
+   "para_start": 47.317,
+   "para_end": 47.317,
+   "quote_open": 18.063,
+   "quote_close": 18.063,
+   "dialogue": 18.063,
+   "narration": 20.23,
+   "short_sent": 117.293,
+   "long_sent": 0.0,
+   "first_sent": 2.208,
+   "slop_tri": 1.22,
+   "slop_word": 13.566,
+   "sent_len_mean": 4.89,
+   "sent_len_sd": 2.794,
+   "ttr_300": 0.544,
+   "para_words": 23.599,
+   "dialogue_share": 0.094
+  },
+  "wp/gemma_raw": {
+   "n": 340,
+   "wasnt_it_was": 1.182,
+   "not_just": 0.24,
+   "simile_like": 0.995,
+   "as_if": 0.304,
+   "em_dash": 2.993,
+   "ellipsis": 7.307,
+   "semicolon": 0.518,
+   "colon": 1.486,
+   "tag_adverb": 0.282,
+   "bookism": 1.21,
+   "voice_barely": 0.834,
+   "list3": 4.953,
+   "emotion_pack": 1.599,
+   "something": 0.545,
+   "couldnt_help": 0.027,
+   "body_cliche": 0.203,
+   "eyes": 0.163,
+   "seemed": 0.455,
+   "air_silence": 0.165,
+   "moment": 0.287,
+   "just_adv": 8.364,
+   "ly_adverb": 19.513,
+   "said": 3.416,
+   "name": 18.91,
+   "i_pron": 22.876,
+   "and_start": 5.192,
+   "question": 6.643,
+   "exclaim": 2.623,
+   "number": 1.619,
+   "abstract": 21.792,
+   "sent_start": 111.418,
+   "sent_end": 111.418,
+   "para_start": 35.235,
+   "para_end": 35.235,
+   "quote_open": 20.213,
+   "quote_close": 20.213,
+   "dialogue": 20.213,
+   "narration": 22.723,
+   "short_sent": 34.222,
+   "long_sent": 0.377,
+   "first_sent": 2.532,
+   "slop_tri": 3.204,
+   "slop_word": 29.854,
+   "sent_len_mean": 9.633,
+   "sent_len_sd": 6.34,
+   "ttr_300": 0.603,
+   "para_words": 35.831,
+   "dialogue_share": 0.152
+  }
+ },
+ "openings": {
+  "wp/human": {
+   "n": 340,
+   "first_word": [
+    [
+     "The",
+     36
+    ],
+    [
+     "I",
+     32
+    ],
+    [
+     "It",
+     16
+    ],
+    [
+     "My",
+     8
+    ],
+    [
+     "A",
+     8
+    ],
+    [
+     "I'm",
+     6
+    ]
+   ],
+   "first3": [
+    [
+     "It had been",
+     5
+    ],
+    [
+     "...",
+     3
+    ],
+    [
+     "I opened my",
+     2
+    ],
+    [
+     "\u201cDo you want",
+     2
+    ],
+    [
+     "It was a",
+     2
+    ],
+    [
+     "The little old",
+     1
+    ]
+   ],
+   "distinct_first3": 0.974
+  },
+  "wp/gemma": {
+   "n": 340,
+   "first_word": [
+    [
+     "The",
+     331
+    ],
+    [
+     "I",
+     1
+    ],
+    [
+     "Another",
+     1
+    ],
+    [
+     "My",
+     1
+    ],
+    [
+     "Where",
+     1
+    ],
+    [
+     "Let",
+     1
+    ]
+   ],
+   "first3": [
+    [
+     "The rain in",
+     79
+    ],
+    [
+     "The rain smelled",
+     57
+    ],
+    [
+     "The rain tasted",
+     40
+    ],
+    [
+     "The rain was",
+     27
+    ],
+    [
+     "The rain always",
+     14
+    ],
+    [
+     "The rain hammered",
+     12
+    ]
+   ],
+   "distinct_first3": 0.259
+  },
+  "wp/gemma_greedy": {
+   "n": 160,
+   "first_word": [
+    [
+     "The",
+     156
+    ],
+    [
+     "Where",
+     1
+    ],
+    [
+     "Right,",
+     1
+    ],
+    [
+     "Barnaby",
+     1
+    ],
+    [
+     "Master",
+     1
+    ]
+   ],
+   "first3": [
+    [
+     "The rain in",
+     44
+    ],
+    [
+     "The rain smelled",
+     29
+    ],
+    [
+     "The rain tasted",
+     17
+    ],
+    [
+     "The rain was",
+     13
+    ],
+    [
+     "The air in",
+     5
+    ],
+    [
+     "The rain always",
+     4
+    ]
+   ],
+   "distinct_first3": 0.263
+  },
+  "wp/gemma_plain": {
+   "n": 160,
+   "first_word": [
+    [
+     "The",
+     154
+    ],
+    [
+     "I",
+     2
+    ],
+    [
+     "He",
+     1
+    ],
+    [
+     "Barnaby",
+     1
+    ],
+    [
+     "Kenzo",
+     1
+    ],
+    [
+     "My",
+     1
+    ]
+   ],
+   "first3": [
+    [
+     "The rain was",
+     51
+    ],
+    [
+     "The rain started",
+     13
+    ],
+    [
+     "The rain fell.",
+     7
+    ],
+    [
+     "The room was",
+     5
+    ],
+    [
+     "The light was",
+     5
+    ],
+    [
+     "The rain came.",
+     4
+    ]
+   ],
+   "distinct_first3": 0.456
+  },
+  "wp/gemma_lit": {
+   "n": 160,
+   "first_word": [
+    [
+     "The",
+     159
+    ],
+    [
+     "Where",
+     1
+    ]
+   ],
+   "first3": [
+    [
+     "The rain in",
+     76
+    ],
+    [
+     "The rain tasted",
+     17
+    ],
+    [
+     "The rain smelled",
+     15
+    ],
+    [
+     "The rain began",
+     5
+    ],
+    [
+     "The rain on",
+     5
+    ],
+    [
+     "The rain was",
+     5
+    ]
+   ],
+   "distinct_first3": 0.212
+  },
+  "wp/claude": {
+   "n": 300,
+   "first_word": [
+    [
+     "The",
+     205
+    ],
+    [
+     "I",
+     17
+    ],
+    [
+     "My",
+     7
+    ],
+    [
+     "They",
+     6
+    ],
+    [
+     "For",
+     4
+    ],
+    [
+     "Every",
+     4
+    ]
+   ],
+   "first3": [
+    [
+     "The first thing",
+     21
+    ],
+    [
+     "The first time",
+     10
+    ],
+    [
+     "The last thing",
+     5
+    ],
+    [
+     "The first one",
+     4
+    ],
+    [
+     "The woman who",
+     2
+    ],
+    [
+     "The knock came",
+     2
+    ]
+   ],
+   "distinct_first3": 0.84
+  },
+  "wp/glm": {
+   "n": 300,
+   "first_word": [
+    [
+     "The",
+     138
+    ],
+    [
+     "I",
+     36
+    ],
+    [
+     "My",
+     11
+    ],
+    [
+     "They",
+     10
+    ],
+    [
+     "There",
+     7
+    ],
+    [
+     "He",
+     6
+    ]
+   ],
+   "first3": [
+    [
+     "I died on",
+     4
+    ],
+    [
+     "On the morning",
+     3
+    ],
+    [
+     "The first thing",
+     3
+    ],
+    [
+     "I wake because",
+     2
+    ],
+    [
+     "The invitation came",
+     2
+    ],
+    [
+     "Every morning for",
+     2
+    ]
+   ],
+   "distinct_first3": 0.953
+  }
+ },
+ "names": {
+  "wp/human": {
+   "n": 340,
+   "top": [
+    [
+     "God",
+     0.076
+    ],
+    [
+     "The",
+     0.05
+    ],
+    [
+     "Earth",
+     0.047
+    ],
+    [
+     "English",
+     0.029
+    ],
+    [
+     "Death",
+     0.026
+    ],
+    [
+     "New",
+     0.024
+    ],
+    [
+     "Lord",
+     0.024
+    ],
+    [
+     "John",
+     0.024
+    ],
+    [
+     "Jack",
+     0.021
+    ],
+    [
+     "Mary",
+     0.021
+    ],
+    [
+     "King",
+     0.018
+    ],
+    [
+     "James",
+     0.018
+    ],
+    [
+     "Hell",
+     0.018
+    ],
+    [
+     "North",
+     0.018
+    ],
+    [
+     "One",
+     0.015
+    ],
+    [
+     "Frank",
+     0.015
+    ],
+    [
+     "Captain",
+     0.015
+    ],
+    [
+     "Army",
+     0.015
+    ],
+    [
+     "Chinese",
+     0.015
+    ],
+    [
+     "Harold",
+     0.015
+    ],
+    [
+     "America",
+     0.015
+    ],
+    [
+     "Tom",
+     0.015
+    ],
+    [
+     "City",
+     0.012
+    ],
+    [
+     "Steve",
+     0.012
+    ],
+    [
+     "York",
+     0.012
+    ]
+   ]
+  },
+  "wp/gemma": {
+   "n": 340,
+   "top": [
+    [
+     "Silas",
+     0.335
+    ],
+    [
+     "Thorne",
+     0.171
+    ],
+    [
+     "Elias",
+     0.165
+    ],
+    [
+     "Blackwood",
+     0.162
+    ],
+    [
+     "Oakhaven",
+     0.076
+    ],
+    [
+     "Lyra",
+     0.071
+    ],
+    [
+     "Veridia",
+     0.071
+    ],
+    [
+     "Mrs",
+     0.059
+    ],
+    [
+     "Havenwood",
+     0.059
+    ],
+    [
+     "Vance",
+     0.059
+    ],
+    [
+     "Elara",
+     0.056
+    ],
+    [
+     "Earth",
+     0.056
+    ],
+    [
+     "Council",
+     0.053
+    ],
+    [
+     "Obsidian",
+     0.05
+    ],
+    [
+     "Victorian",
+     0.038
+    ],
+    [
+     "Kaelen",
+     0.038
+    ],
+    [
+     "Weaver",
+     0.038
+    ],
+    [
+     "Sarah",
+     0.038
+    ],
+    [
+     "Leo",
+     0.038
+    ],
+    [
+     "Sector",
+     0.035
+    ],
+    [
+     "Miller",
+     0.032
+    ],
+    [
+     "Daniel",
+     0.029
+    ],
+    [
+     "Creek",
+     0.026
+    ],
+    [
+     "Tuesday",
+     0.026
+    ],
+    [
+     "Master",
+     0.026
+    ]
+   ]
+  },
+  "wp/claude": {
+   "n": 300,
+   "top": [
+    [
+     "Tuesday",
+     0.17
+    ],
+    [
+     "Street",
+     0.09
+    ],
+    [
+     "Thursday",
+     0.087
+    ],
+    [
+     "October",
+     0.08
+    ],
+    [
+     "March",
+     0.073
+    ],
+    [
+     "Marcus",
+     0.063
+    ],
+    [
+     "God",
+     0.06
+    ],
+    [
+     "Ohio",
+     0.05
+    ],
+    [
+     "Earth",
+     0.05
+    ],
+    [
+     "Okafor",
+     0.047
+    ],
+    [
+     "Priya",
+     0.043
+    ],
+    [
+     "Pell",
+     0.043
+    ],
+    [
+     "Route",
+     0.04
+    ],
+    [
+     "Pruitt",
+     0.04
+    ],
+    [
+     "Sunday",
+     0.04
+    ],
+    [
+     "Ruth",
+     0.037
+    ],
+    [
+     "Lisbon",
+     0.037
+    ],
+    [
+     "Theo",
+     0.033
+    ],
+    [
+     "February",
+     0.033
+    ],
+    [
+     "Saturday",
+     0.03
+    ],
+    [
+     "Mom",
+     0.03
+    ],
+    [
+     "Danny",
+     0.03
+    ],
+    [
+     "Mrs",
+     0.03
+    ],
+    [
+     "Hollis",
+     0.027
+    ],
+    [
+     "Tuesdays",
+     0.027
+    ]
+   ]
+  },
+  "wp/glm": {
+   "n": 300,
+   "top": [
+    [
+     "Tuesday",
+     0.247
+    ],
+    [
+     "October",
+     0.103
+    ],
+    [
+     "March",
+     0.087
+    ],
+    [
+     "June",
+     0.087
+    ],
+    [
+     "Earth",
+     0.063
+    ],
+    [
+     "Street",
+     0.06
+    ],
+    [
+     "Thursday",
+     0.06
+    ],
+    [
+     "Friday",
+     0.05
+    ],
+    [
+     "God",
+     0.05
+    ],
+    [
+     "Mara",
+     0.047
+    ],
+    [
+     "Ruth",
+     0.043
+    ],
+    [
+     "Route",
+     0.043
+    ],
+    [
+     "April",
+     0.043
+    ],
+    [
+     "Wren",
+     0.04
+    ],
+    [
+     "Meridian",
+     0.04
+    ],
+    [
+     "November",
+     0.04
+    ],
+    [
+     "Reyes",
+     0.037
+    ],
+    [
+     "One",
+     0.037
+    ],
+    [
+     "Wednesday",
+     0.037
+    ],
+    [
+     "Saturday",
+     0.037
+    ],
+    [
+     "Tuesdays",
+     0.037
+    ],
+    [
+     "Mom",
+     0.033
+    ],
+    [
+     "Marcus",
+     0.033
+    ],
+    [
+     "Marsh",
+     0.033
+    ],
+    [
+     "Sunday",
+     0.033
+    ]
+   ]
+  },
+  "wp/gemma_greedy": {
+   "n": 160,
+   "top": [
+    [
+     "Silas",
+     0.3
+    ],
+    [
+     "Elias",
+     0.175
+    ],
+    [
+     "Thorne",
+     0.163
+    ],
+    [
+     "Blackwood",
+     0.131
+    ],
+    [
+     "Oakhaven",
+     0.1
+    ],
+    [
+     "Weaver",
+     0.087
+    ],
+    [
+     "Lyra",
+     0.087
+    ],
+    [
+     "Council",
+     0.087
+    ],
+    [
+     "Vance",
+     0.081
+    ],
+    [
+     "Earth",
+     0.081
+    ],
+    [
+     "Havenwood",
+     0.069
+    ],
+    [
+     "Veridia",
+     0.069
+    ],
+    [
+     "Mrs",
+     0.056
+    ],
+    [
+     "Aethelgard",
+     0.056
+    ],
+    [
+     "Victorian",
+     0.05
+    ],
+    [
+     "Elara",
+     0.05
+    ],
+    [
+     "Kaelen",
+     0.05
+    ],
+    [
+     "Finch",
+     0.05
+    ],
+    [
+     "Obsidian",
+     0.05
+    ],
+    [
+     "Sarah",
+     0.044
+    ],
+    [
+     "Shift",
+     0.037
+    ],
+    [
+     "Liam",
+     0.037
+    ],
+    [
+     "Collapse",
+     0.037
+    ],
+    [
+     "Clara",
+     0.037
+    ],
+    [
+     "Tuesday",
+     0.031
+    ]
+   ]
+  },
+  "wp/gemma_raw": {
+   "n": 340,
+   "top": [
+    [
+     "Silas",
+     0.097
+    ],
+    [
+     "Blackwood",
+     0.056
+    ],
+    [
+     "Sarah",
+     0.047
+    ],
+    [
+     "Elias",
+     0.044
+    ],
+    [
+     "Liam",
+     0.038
+    ],
+    [
+     "Thorne",
+     0.035
+    ],
+    [
+     "Evelyn",
+     0.029
+    ],
+    [
+     "Elara",
+     0.029
+    ],
+    [
+     "Works",
+     0.026
+    ],
+    [
+     "Details",
+     0.026
+    ],
+    [
+     "Mrs",
+     0.026
+    ],
+    [
+     "Lyra",
+     0.024
+    ],
+    [
+     "Kaelen",
+     0.024
+    ],
+    [
+     "Leo",
+     0.024
+    ],
+    [
+     "Miller",
+     0.024
+    ],
+    [
+     "Daniel",
+     0.024
+    ],
+    [
+     "God",
+     0.021
+    ],
+    [
+     "Shadow",
+     0.021
+    ],
+    [
+     "Reed",
+     0.021
+    ],
+    [
+     "Well",
+     0.018
+    ],
+    [
+     "Earth",
+     0.018
+    ],
+    [
+     "Lord",
+     0.018
+    ],
+    [
+     "Detective",
+     0.018
+    ],
+    [
+     "Eleanor",
+     0.018
+    ],
+    [
+     "Conflict",
+     0.018
+    ]
+   ]
+  }
+ }
+}
