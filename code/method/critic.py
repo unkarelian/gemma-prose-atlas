@@ -1,4 +1,6 @@
-"""External critic for prose: scores texts without asking the writing model.   <detector venv>/bin/python -I method/critic.py score FILE.jsonl [...]   |   rerank FILE.jsonl
+"""Detector scores for prose. A MEASUREMENT, NOT A QUALITY SCORE: in blind reading, picking samples by these scores made the prose worse
+(disorder looks human to a detector). Use it to see whether stock prose is gone, never to choose between samples. Paths point at the author's local detectors.
+   <detector venv>/bin/python -I method/critic.py score FILE.jsonl [...]   |   rerank FILE.jsonl
 Scores (per text): ai = fiction detector log-odds of AI (above 0 leans AI); taste = taste detector log-odds of 'rejected draft' (lower is closer
 to the reader's approved edits; trained on one book, so treat it as a weak signal); plus variety, repetition and stock-word rate.
 rerank: for files with several samples per brief, keep the sample with the lowest ai + 0.5 * taste, after dropping repetitive ones."""

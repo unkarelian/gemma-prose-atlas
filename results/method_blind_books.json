@@ -1,0 +1,43 @@
+{
+ "unedited": {
+  "prose": 3.1,
+  "coherence": 6.7,
+  "fit": 6.15,
+  "mean_rank": 2.7,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "adapter": {
+  "prose": 3.85,
+  "coherence": 3.95,
+  "fit": 5.35,
+  "mean_rank": 2.88,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "adapter+rep": {
+  "prose": 2.9,
+  "coherence": 3,
+  "fit": 4,
+  "mean_rank": 4.03,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "full recipe": {
+  "prose": 2.7,
+  "coherence": 2.5,
+  "fit": 3.65,
+  "mean_rank": 4.4,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "human": {
+  "prose": 8.68,
+  "coherence": 8.97,
+  "fit": 9.05,
+  "mean_rank": 1,
+  "ranked_first": 1.0,
+  "reads_ai": 0
+ },
+ "n_briefs": 40
+}

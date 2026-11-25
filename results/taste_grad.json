@@ -1,0 +1,1067 @@
+{
+ "rating_gap": 1.199,
+ "layers": {
+  "0": {
+   "cos_taste_gradient_with_llm_direction": 0.004,
+   "cos_with_gemma_direction": 0.008,
+   "first_order_share_of_rating_gap": 0.035
+  },
+  "2": {
+   "cos_taste_gradient_with_llm_direction": 0.005,
+   "cos_with_gemma_direction": 0.011,
+   "first_order_share_of_rating_gap": 0.05
+  },
+  "4": {
+   "cos_taste_gradient_with_llm_direction": 0.019,
+   "cos_with_gemma_direction": 0.01,
+   "first_order_share_of_rating_gap": 0.102
+  },
+  "6": {
+   "cos_taste_gradient_with_llm_direction": 0.049,
+   "cos_with_gemma_direction": 0.032,
+   "first_order_share_of_rating_gap": 0.191
+  },
+  "8": {
+   "cos_taste_gradient_with_llm_direction": 0.05,
+   "cos_with_gemma_direction": 0.041,
+   "first_order_share_of_rating_gap": 0.258
+  },
+  "10": {
+   "cos_taste_gradient_with_llm_direction": 0.049,
+   "cos_with_gemma_direction": 0.034,
+   "first_order_share_of_rating_gap": 0.16
+  },
+  "12": {
+   "cos_taste_gradient_with_llm_direction": 0.022,
+   "cos_with_gemma_direction": 0.025,
+   "first_order_share_of_rating_gap": 0.141
+  },
+  "14": {
+   "cos_taste_gradient_with_llm_direction": 0.011,
+   "cos_with_gemma_direction": 0.002,
+   "first_order_share_of_rating_gap": 0.068
+  },
+  "16": {
+   "cos_taste_gradient_with_llm_direction": -0.007,
+   "cos_with_gemma_direction": -0.008,
+   "first_order_share_of_rating_gap": 0.003
+  },
+  "18": {
+   "cos_taste_gradient_with_llm_direction": -0.002,
+   "cos_with_gemma_direction": -0.002,
+   "first_order_share_of_rating_gap": 0.0
+  },
+  "20": {
+   "cos_taste_gradient_with_llm_direction": -0.015,
+   "cos_with_gemma_direction": -0.022,
+   "first_order_share_of_rating_gap": 0.001
+  },
+  "22": {
+   "cos_taste_gradient_with_llm_direction": -0.012,
+   "cos_with_gemma_direction": -0.014,
+   "first_order_share_of_rating_gap": -0.001
+  },
+  "24": {
+   "cos_taste_gradient_with_llm_direction": -0.002,
+   "cos_with_gemma_direction": -0.007,
+   "first_order_share_of_rating_gap": -0.001
+  },
+  "26": {
+   "cos_taste_gradient_with_llm_direction": -0.009,
+   "cos_with_gemma_direction": -0.009,
+   "first_order_share_of_rating_gap": -0.001
+  }
+ },
+ "taste_features": [
+  {
+   "key": "L0.329",
+   "effect_on_gap": -0.1516,
+   "top": [
+    "\ud808\udcb7",
+    "\ud808\udd64",
+    "\ud808\udd34",
+    "\ua5dc",
+    "DenovoMis",
+    "odikwa"
+   ]
+  },
+  {
+   "key": "L10.32",
+   "effect_on_gap": -0.1203,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L2.317",
+   "effect_on_gap": -0.0732,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L0.460",
+   "effect_on_gap": -0.0647,
+   "top": [
+    "\ua5dc",
+    "MalayMarks",
+    "DenovoMis",
+    " PLDNN",
+    "\ud808\ude76",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L12.969",
+   "effect_on_gap": 0.0553,
+   "top": [
+    "<unused1166>",
+    "<unused687>",
+    "<unused201>",
+    "\ufffd",
+    "<unused1077>",
+    "<unused1170>"
+   ]
+  },
+  {
+   "key": "L10.647",
+   "effect_on_gap": -0.0486,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "<unused338>",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ud808\udcb7"
+   ]
+  },
+  {
+   "key": "L0.42",
+   "effect_on_gap": -0.0481,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "\ud808\ude76",
+    " PLDNN",
+    "MalayMarks",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L8.11",
+   "effect_on_gap": -0.0481,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0",
+    "<unused338>"
+   ]
+  },
+  {
+   "key": "L2.150",
+   "effect_on_gap": 0.046,
+   "top": [
+    "<unused338>",
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "<unused429>"
+   ]
+  },
+  {
+   "key": "L0.325",
+   "effect_on_gap": -0.0445,
+   "top": [
+    "ophylline",
+    "mselves",
+    "od",
+    "odore",
+    "oretically",
+    "matic"
+   ]
+  },
+  {
+   "key": "L0.327",
+   "effect_on_gap": 0.0424,
+   "top": [
+    "\u032e",
+    "\u0642",
+    " ylab",
+    "\u094d\u092f\u0941\u0928\u093f\u0915\u0947\u0936\u0928",
+    " preceded",
+    "irradiation"
+   ]
+  },
+  {
+   "key": "L0.9",
+   "effect_on_gap": -0.0403,
+   "top": [
+    " \u098f\u09ae\u09a8\u0995\u09bf",
+    " rightful",
+    " heinous",
+    " \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438",
+    " \u0434\u0440\u0443\u0433\u0438",
+    " \u0924\u0938\u0947\u091a"
+   ]
+  },
+  {
+   "key": "L0.97",
+   "effect_on_gap": -0.0377,
+   "top": [
+    "\u043b",
+    "\u05ea",
+    "an",
+    "\u3066",
+    "ished",
+    "tering"
+   ]
+  },
+  {
+   "key": "L8.199",
+   "effect_on_gap": -0.0371,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L6.14944",
+   "effect_on_gap": 0.0367,
+   "top": [
+    "Diaz",
+    " \u0c30\u0c41",
+    "\u69d8\u3005\u306a",
+    " Sanct",
+    "Please",
+    " Gatsby"
+   ]
+  },
+  {
+   "key": "L0.420",
+   "effect_on_gap": 0.0365,
+   "top": [
+    "j\u0161\u00ed",
+    "\u0621",
+    "a",
+    "\u0629",
+    "\u0627\u0646",
+    "\u09a8"
+   ]
+  },
+  {
+   "key": "L0.114",
+   "effect_on_gap": -0.0362,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "DenovoMis",
+    "\ua5d0",
+    "<unused338>"
+   ]
+  },
+  {
+   "key": "L6.782",
+   "effect_on_gap": -0.0359,
+   "top": [
+    "\ua5dc",
+    " PLDNN",
+    "\ud808\ude76",
+    "<unused338>",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L10.11924",
+   "effect_on_gap": -0.0328,
+   "top": [
+    ".</",
+    "<unused366>",
+    " \u0c1a\u0c3f\u0c24\u0c4d\u0c30\u0c02",
+    "<unused1077>",
+    " bringen",
+    "<unused687>"
+   ]
+  },
+  {
+   "key": "L0.284",
+   "effect_on_gap": -0.0327,
+   "top": [
+    " ihe",
+    " meisten",
+    " fleste",
+    "\u4e5f\u5c31\u662f\u8bf4",
+    " cheered",
+    " meeste"
+   ]
+  },
+  {
+   "key": "L2.207",
+   "effect_on_gap": -0.0312,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L8.987",
+   "effect_on_gap": -0.0309,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ua5d0",
+    "\ud808\udd64"
+   ]
+  },
+  {
+   "key": "L4.411",
+   "effect_on_gap": 0.0309,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    "<unused1166>",
+    "<unused201>",
+    ".</",
+    "<unused1077>"
+   ]
+  },
+  {
+   "key": "L8.148",
+   "effect_on_gap": -0.0302,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "<unused338>",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L0.116",
+   "effect_on_gap": 0.0293,
+   "top": [
+    "ergic",
+    "iteration",
+    "igators",
+    "iances",
+    "usions",
+    "iterate"
+   ]
+  },
+  {
+   "key": "L12.359",
+   "effect_on_gap": -0.0283,
+   "top": [
+    "\ufffd",
+    "<unused1166>",
+    "<unused1077>",
+    "<unused687>",
+    "<unused201>",
+    ".</"
+   ]
+  },
+  {
+   "key": "L0.328",
+   "effect_on_gap": 0.028,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "\ud808\udd64",
+    " PLDNN",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L12.6825",
+   "effect_on_gap": 0.0272,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "\ud808\udd64",
+    "\ua5d0",
+    "\ud808\udc7c",
+    "\ud808\udcb7"
+   ]
+  },
+  {
+   "key": "L8.13495",
+   "effect_on_gap": 0.0258,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    ".</",
+    "<unused1077>",
+    " WV",
+    " gummies"
+   ]
+  },
+  {
+   "key": "L6.92",
+   "effect_on_gap": -0.0254,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "<unused338>",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L8.6469",
+   "effect_on_gap": 0.0248,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    ".</",
+    "<unused201>",
+    "<unused1166>",
+    "<unused366>"
+   ]
+  },
+  {
+   "key": "L2.312",
+   "effect_on_gap": 0.0242,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "<unused338>",
+    " PLDNN",
+    "\ud808\udd64",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L10.2430",
+   "effect_on_gap": -0.0241,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L12.497",
+   "effect_on_gap": 0.0236,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "<unused338>",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L6.9649",
+   "effect_on_gap": 0.0229,
+   "top": [
+    "<unused338>",
+    "<unused429>",
+    "\ua5dc",
+    "\ua5d0",
+    "\ud808\ude76",
+    "\ud808\udd64"
+   ]
+  },
+  {
+   "key": "L4.3419",
+   "effect_on_gap": 0.0224,
+   "top": [
+    "\u0644",
+    "os",
+    " \ubc0f",
+    "ik",
+    "\u043d\u0430",
+    " c\u1ee7a"
+   ]
+  },
+  {
+   "key": "L12.167",
+   "effect_on_gap": 0.0222,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "\ud808\udd64",
+    " PLDNN",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L12.352",
+   "effect_on_gap": -0.0216,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L0.1567",
+   "effect_on_gap": -0.0215,
+   "top": [
+    "u",
+    " acquaintances",
+    " strcmp",
+    " linestyle",
+    "\uac00",
+    "re"
+   ]
+  },
+  {
+   "key": "L0.6031",
+   "effect_on_gap": 0.0213,
+   "top": [
+    "at",
+    "\u5bf9\u4e8e",
+    ">",
+    "\u662f",
+    "\u043d\u0430",
+    "\u0915"
+   ]
+  },
+  {
+   "key": "L6.232",
+   "effect_on_gap": 0.0211,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L8.215",
+   "effect_on_gap": -0.0208,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "<unused338>",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L6.11009",
+   "effect_on_gap": 0.0207,
+   "top": [
+    " Foundations",
+    " Fulbright",
+    "ful",
+    " \u0446\u0443",
+    "\u0443",
+    " arcane"
+   ]
+  },
+  {
+   "key": "L8.12508",
+   "effect_on_gap": -0.0207,
+   "top": [
+    "\ua5dc",
+    "\ud808\udd64",
+    "\ud808\ude76",
+    "<unused338>",
+    "\ua5d0",
+    " PLDNN"
+   ]
+  },
+  {
+   "key": "L0.485",
+   "effect_on_gap": 0.0205,
+   "top": [
+    "\ua5dc",
+    "\ud808\udcb7",
+    "<unused338>",
+    "\ud808\ude76",
+    " PLDNN",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L8.317",
+   "effect_on_gap": -0.0193,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "<unused338>",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L8.11646",
+   "effect_on_gap": 0.0191,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "MalayMarks",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L6.3283",
+   "effect_on_gap": -0.019,
+   "top": [
+    "\ua5dc",
+    " PLDNN",
+    "\ud808\ude76",
+    "<unused338>",
+    "\ua5d0",
+    "<unused429>"
+   ]
+  },
+  {
+   "key": "L12.9403",
+   "effect_on_gap": -0.0189,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    "<unused201>",
+    "<unused1166>",
+    ".</",
+    "<unused1077>"
+   ]
+  },
+  {
+   "key": "L8.7228",
+   "effect_on_gap": -0.0188,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    "<unused201>",
+    " cercando",
+    "<unused1045>",
+    "<unused1170>"
+   ]
+  },
+  {
+   "key": "L0.1453",
+   "effect_on_gap": 0.0188,
+   "top": [
+    "\u0993",
+    "\u662f",
+    "\u0987",
+    "\uc774",
+    "\u0647\u0645\u0627",
+    "\u0e07"
+   ]
+  },
+  {
+   "key": "L4.3183",
+   "effect_on_gap": -0.0186,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "\ud808\ude76",
+    "\ud808\udd64",
+    " PLDNN",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L12.89",
+   "effect_on_gap": -0.0184,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "<unused338>",
+    "\ud808\udd64",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L4.87",
+   "effect_on_gap": -0.018,
+   "top": [
+    "<unused687>",
+    "\ufffd",
+    "<unused1166>",
+    "<unused201>",
+    ".</",
+    "<unused1077>"
+   ]
+  },
+  {
+   "key": "L10.871",
+   "effect_on_gap": 0.0179,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    "<unused1166>",
+    ".</",
+    "<unused1077>",
+    "<unused201>"
+   ]
+  },
+  {
+   "key": "L8.88",
+   "effect_on_gap": 0.0177,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "<unused338>",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L0.357",
+   "effect_on_gap": 0.0174,
+   "top": [
+    "ioniert",
+    "atchewan",
+    "BigAutoField",
+    "\ud45e",
+    "\u0634\u0627\u0641",
+    "\u0e29\u0e32"
+   ]
+  },
+  {
+   "key": "L8.4190",
+   "effect_on_gap": 0.0168,
+   "top": [
+    "<unused366>",
+    "<unused673>",
+    " participle",
+    " confortable",
+    " \u06c1\u06d2\u06d4",
+    "<unused687>"
+   ]
+  },
+  {
+   "key": "L0.203",
+   "effect_on_gap": 0.0167,
+   "top": [
+    "lapping",
+    "il",
+    "quele",
+    "\u043f\u0440\u0438\u043c\u0435\u0440",
+    "\u0440\u0443",
+    "orems"
+   ]
+  },
+  {
+   "key": "L6.9691",
+   "effect_on_gap": -0.0167,
+   "top": [
+    "\ua5dc",
+    "<unused338>",
+    "<unused429>",
+    "\ua5d0",
+    "\ud808\ude76",
+    "\ud808\udd64"
+   ]
+  },
+  {
+   "key": "L8.1017",
+   "effect_on_gap": -0.0167,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "MalayMarks",
+    "<unused338>",
+    "\ud808\udd64"
+   ]
+  },
+  {
+   "key": "L8.15319",
+   "effect_on_gap": -0.0165,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "\ua5d0",
+    "\ud808\udd64",
+    "MalayMarks",
+    " PLDNN"
+   ]
+  },
+  {
+   "key": "L0.626",
+   "effect_on_gap": 0.0164,
+   "top": [
+    "er",
+    "an",
+    "\u0930",
+    "\u062a",
+    "\u0631",
+    "y"
+   ]
+  },
+  {
+   "key": "L8.4829",
+   "effect_on_gap": 0.0163,
+   "top": [
+    "<unused1166>",
+    "<unused687>",
+    "<unused201>",
+    "\ufffd",
+    "<unused366>",
+    "<unused1170>"
+   ]
+  },
+  {
+   "key": "L6.1028",
+   "effect_on_gap": -0.0163,
+   "top": [
+    "\ufffd",
+    ".</",
+    "<unused1166>",
+    "<unused201>",
+    "<unused687>",
+    " cercando"
+   ]
+  },
+  {
+   "key": "L0.180",
+   "effect_on_gap": 0.0162,
+   "top": [
+    "td",
+    "sit",
+    "s",
+    "som",
+    "\ufe0f\u20e3",
+    "\u20e3"
+   ]
+  },
+  {
+   "key": "L8.394",
+   "effect_on_gap": -0.0162,
+   "top": [
+    "<unused687>",
+    "\ufffd",
+    "<unused1166>",
+    "<unused366>",
+    "<unused201>",
+    ".</"
+   ]
+  },
+  {
+   "key": "L6.447",
+   "effect_on_gap": -0.016,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "<unused338>",
+    " PLDNN",
+    "\ud808\udd64",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L0.229",
+   "effect_on_gap": 0.0158,
+   "top": [
+    "\u0906\u0924\u0940",
+    "\u09bf\u0995",
+    "\u09cb\u0997\u09cd\u09af",
+    " afresh",
+    "\u0439",
+    "\u05dc\u05e2"
+   ]
+  },
+  {
+   "key": "L6.978",
+   "effect_on_gap": -0.0158,
+   "top": [
+    "\ufffd",
+    " WV",
+    " \u098f\u09ae",
+    "\u201a",
+    " recomendable",
+    ".</"
+   ]
+  },
+  {
+   "key": "L0.208",
+   "effect_on_gap": 0.0158,
+   "top": [
+    "entropic",
+    "hmad",
+    " a\u00f0",
+    " irrelevant",
+    "a\u00e7\u00e3o",
+    "\u09c1\u099c"
+   ]
+  },
+  {
+   "key": "L10.95",
+   "effect_on_gap": -0.0157,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L0.88",
+   "effect_on_gap": -0.0157,
+   "top": [
+    "erun",
+    " example",
+    " instance",
+    "erunner",
+    "giveness",
+    " \u043e\u0431\u043e\u0437\u043d\u0430"
+   ]
+  },
+  {
+   "key": "L12.988",
+   "effect_on_gap": 0.0156,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    "\ud808\udd64",
+    "MalayMarks",
+    " PLDNN",
+    "\ua5d0"
+   ]
+  },
+  {
+   "key": "L10.6842",
+   "effect_on_gap": -0.0154,
+   "top": [
+    "\ufffd",
+    "<unused1166>",
+    "<unused687>",
+    ".</",
+    "<unused1170>",
+    "<unused201>"
+   ]
+  },
+  {
+   "key": "L4.8127",
+   "effect_on_gap": 0.0154,
+   "top": [
+    "\ua5dc",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ud808\ude76",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  },
+  {
+   "key": "L12.339",
+   "effect_on_gap": 0.0153,
+   "top": [
+    "\ufffd",
+    "<unused687>",
+    "<unused1166>",
+    "<unused201>",
+    "<unused1077>",
+    "<unused366>"
+   ]
+  },
+  {
+   "key": "L0.14536",
+   "effect_on_gap": 0.015,
+   "top": [
+    "\ua5dc",
+    " PLDNN",
+    "<unused338>",
+    "\ud808\ude76",
+    "MalayMarks",
+    "\ud808\udd64"
+   ]
+  },
+  {
+   "key": "L0.43",
+   "effect_on_gap": -0.0149,
+   "top": [
+    " cerevisiae",
+    "\u0cc2\u0cb0\u0ccd\u0caf",
+    "\u0f92\u0fb1",
+    " UIStoryboard",
+    " \u0639\u0644\u06cc\u06a9\u0645",
+    " \u041e\u0442\u0435"
+   ]
+  },
+  {
+   "key": "L8.923",
+   "effect_on_gap": -0.0148,
+   "top": [
+    "\ua5dc",
+    "\ud808\ude76",
+    " PLDNN",
+    "\ud808\udd64",
+    "\ua5d0",
+    "MalayMarks"
+   ]
+  }
+ ],
+ "remove": {
+  "nothing removed": {
+   "rating/human": 6.722,
+   "rating/gemma": 7.869,
+   "rating/claude": 7.888,
+   "prefers gemma over human": 0.742,
+   "prefers claude over human": 0.73
+  },
+  "top 10 taste features removed": {
+   "rating/human": 6.803,
+   "rating/gemma": 7.888,
+   "rating/claude": 7.927,
+   "prefers gemma over human": 0.751,
+   "prefers claude over human": 0.768
+  },
+  "top 30": {
+   "rating/human": 6.889,
+   "rating/gemma": 7.914,
+   "rating/claude": 7.931,
+   "prefers gemma over human": 0.763,
+   "prefers claude over human": 0.77
+  },
+  "top 60": {
+   "rating/human": 6.902,
+   "rating/gemma": 7.908,
+   "rating/claude": 7.953,
+   "prefers gemma over human": 0.76,
+   "prefers claude over human": 0.774
+  }
+ }
+}

@@ -16,6 +16,9 @@ if arg("--bake"):
     import tcbake; tcbake.apply(arg("--bake"), "bake")
 wp = json.load(open(f"{W}/steer_plan.json"))["prompts"][:48]; tasks = [t for t in lib.read_jsonl(f"{W}/gen_tasks.jsonl") if t["set"] == "books" and lib.half_of(dict(book=t["book"], group=t["group"])) == 1]; random.shuffle(tasks)
 jobs = [dict(set="wp", group=p["group"], prompt=p["prompt"], brief=p["brief"]) for p in wp] + [dict(set="books", group=t["group"], prompt=t["prompt"], brief="Novel scene from an outline") for t in tasks[:40]]
+if "--wp-only" in sys.argv or arg("--plans"): jobs = [j for j in jobs if j["set"] == "wp"]
+if arg("--plans"):
+    pl = {r["group"]: r["prompt"] for r in lib.read_jsonl(arg("--plans"))}; jobs = [dict(j, prompt=pl[j["group"]]) for j in jobs]
 K = int(arg("--n", 1)); jobs = [dict(j, k=k) for j in jobs for k in range(K)]; jobs.sort(key=lambda j: len(j["prompt"])); tok.padding_side = "left"
 kw = dict(do_sample=True, temperature=float(arg("--temp", 1.0)), top_k=64, top_p=0.95); rp = float(arg("--rep", 1.0))
 if rp != 1.0: kw["repetition_penalty"] = rp

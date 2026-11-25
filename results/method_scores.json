@@ -1,0 +1,412 @@
+{
+ "base | wp": {
+  "ai": 14.533,
+  "taste": 3.561,
+  "variety": 0.619,
+  "repetition": 0.006,
+  "stock": 41.567,
+  "words": 382.5,
+  "flagged_ai": 1.0,
+  "n": 48
+ },
+ "base | books": {
+  "ai": 16.385,
+  "taste": 3.0,
+  "variety": 0.62,
+  "repetition": 0.005,
+  "stock": 36.508,
+  "words": 387.625,
+  "flagged_ai": 1.0,
+  "n": 40
+ },
+ "human_1.0 | wp": {
+  "ai": -7.55,
+  "taste": 1.859,
+  "variety": 0.434,
+  "repetition": 0.083,
+  "stock": 5.354,
+  "words": 342.646,
+  "flagged_ai": 0.0,
+  "n": 48
+ },
+ "human_1.0 | books": {
+  "ai": -5.439,
+  "taste": 0.486,
+  "variety": 0.488,
+  "repetition": 0.024,
+  "stock": 8.197,
+  "words": 340.25,
+  "flagged_ai": 0.05,
+  "n": 40
+ },
+ "human_0.75 | wp": {
+  "ai": -5.476,
+  "taste": 2.0,
+  "variety": 0.491,
+  "repetition": 0.029,
+  "stock": 8.054,
+  "words": 357.021,
+  "flagged_ai": 0.125,
+  "n": 48
+ },
+ "human_0.75 | books": {
+  "ai": -3.251,
+  "taste": 0.577,
+  "variety": 0.518,
+  "repetition": 0.016,
+  "stock": 9.65,
+  "words": 350.7,
+  "flagged_ai": 0.2,
+  "n": 40
+ },
+ "books_1.0 | wp": {
+  "ai": -5.544,
+  "taste": 1.517,
+  "variety": 0.502,
+  "repetition": 0.028,
+  "stock": 9.165,
+  "words": 342.146,
+  "flagged_ai": 0.062,
+  "n": 48
+ },
+ "books_1.0 | books": {
+  "ai": -6.163,
+  "taste": 0.508,
+  "variety": 0.511,
+  "repetition": 0.023,
+  "stock": 7.607,
+  "words": 337.05,
+  "flagged_ai": 0.05,
+  "n": 40
+ },
+ "books_0.75 | wp": {
+  "ai": 1.926,
+  "taste": 2.636,
+  "variety": 0.527,
+  "repetition": 0.018,
+  "stock": 13.088,
+  "words": 374.562,
+  "flagged_ai": 0.667,
+  "n": 48
+ },
+ "books_0.75 | books": {
+  "ai": -2.091,
+  "taste": 0.194,
+  "variety": 0.52,
+  "repetition": 0.017,
+  "stock": 11.367,
+  "words": 358.8,
+  "flagged_ai": 0.325,
+  "n": 40
+ },
+ "books_0.5 | wp": {
+  "ai": 9.77,
+  "taste": 2.868,
+  "variety": 0.569,
+  "repetition": 0.014,
+  "stock": 26.356,
+  "words": 379.708,
+  "flagged_ai": 1.0,
+  "n": 48
+ },
+ "books_0.5 | books": {
+  "ai": 3.38,
+  "taste": 0.348,
+  "variety": 0.541,
+  "repetition": 0.013,
+  "stock": 13.185,
+  "words": 383,
+  "flagged_ai": 0.825,
+  "n": 40
+ },
+ "books_1.0_rep | wp": {
+  "ai": -6.36,
+  "taste": -0.541,
+  "variety": 0.649,
+  "repetition": 0.002,
+  "stock": 11.556,
+  "words": 358.875,
+  "flagged_ai": 0.042,
+  "n": 48
+ },
+ "books_1.0_rep | books": {
+  "ai": -7.152,
+  "taste": -0.647,
+  "variety": 0.633,
+  "repetition": 0.003,
+  "stock": 10.412,
+  "words": 345.475,
+  "flagged_ai": 0.05,
+  "n": 40
+ },
+ "books_1.0_t08 | wp": {
+  "ai": -1.574,
+  "taste": 2.532,
+  "variety": 0.462,
+  "repetition": 0.053,
+  "stock": 8.377,
+  "words": 327.271,
+  "flagged_ai": 0.292,
+  "n": 48
+ },
+ "books_1.0_t08 | books": {
+  "ai": -3.168,
+  "taste": 0.589,
+  "variety": 0.483,
+  "repetition": 0.037,
+  "stock": 7.607,
+  "words": 334.375,
+  "flagged_ai": 0.275,
+  "n": 40
+ },
+ "books_1.0_n4 | wp | first sample": {
+  "ai": -4.603,
+  "taste": 1.324,
+  "variety": 0.493,
+  "repetition": 0.028,
+  "stock": 12.046,
+  "words": 333.958,
+  "flagged_ai": 0.104,
+  "n": 48
+ },
+ "books_1.0_n4 | wp | reranked best of 4": {
+  "ai": -7.654,
+  "taste": 0.847,
+  "variety": 0.508,
+  "repetition": 0.023,
+  "stock": 7.95,
+  "words": 344.667,
+  "flagged_ai": 0.0,
+  "n": 48
+ },
+ "books_1.0_n4 | books | first sample": {
+  "ai": -5.754,
+  "taste": 0.65,
+  "variety": 0.507,
+  "repetition": 0.02,
+  "stock": 9.453,
+  "words": 340.7,
+  "flagged_ai": 0.075,
+  "n": 40
+ },
+ "books_1.0_n4 | books | reranked best of 4": {
+  "ai": -8.248,
+  "taste": -0.273,
+  "variety": 0.506,
+  "repetition": 0.021,
+  "stock": 7.338,
+  "words": 337.9,
+  "flagged_ai": 0.0,
+  "n": 40
+ },
+ "ref_human | wp": {
+  "ai": -8.526,
+  "taste": 0.676,
+  "variety": 0.567,
+  "repetition": 0.009,
+  "stock": 6.921,
+  "words": 1357.25,
+  "flagged_ai": 0.021,
+  "n": 48
+ },
+ "ref_claude | wp": {
+  "ai": 11.005,
+  "taste": 1.019,
+  "variety": 0.577,
+  "repetition": 0.008,
+  "stock": 4.016,
+  "words": 1505.302,
+  "flagged_ai": 1.0,
+  "n": 43
+ },
+ "base_rep | wp": {
+  "ai": 14.261,
+  "taste": 1.451,
+  "variety": 0.696,
+  "repetition": 0.001,
+  "stock": 47.806,
+  "words": 386.958,
+  "flagged_ai": 1.0,
+  "n": 48
+ },
+ "base_rep | books": {
+  "ai": 16.308,
+  "taste": 1.314,
+  "variety": 0.687,
+  "repetition": 0.001,
+  "stock": 41.675,
+  "words": 390.675,
+  "flagged_ai": 1.0,
+  "n": 40
+ },
+ "human_1.0_rep | wp": {
+  "ai": -9.668,
+  "taste": -0.522,
+  "variety": 0.636,
+  "repetition": 0.003,
+  "stock": 5.25,
+  "words": 380.167,
+  "flagged_ai": 0.0,
+  "n": 48
+ },
+ "human_1.0_rep | books": {
+  "ai": -7.188,
+  "taste": -1.548,
+  "variety": 0.633,
+  "repetition": 0.003,
+  "stock": 9.85,
+  "words": 357.7,
+  "flagged_ai": 0.025,
+  "n": 40
+ },
+ "books_1.0_rep_n4 | wp | first sample": {
+  "ai": -7.04,
+  "taste": -0.546,
+  "variety": 0.655,
+  "repetition": 0.005,
+  "stock": 12.715,
+  "words": 358.542,
+  "flagged_ai": 0.021,
+  "n": 48
+ },
+ "books_1.0_rep_n4 | wp | reranked best of 4": {
+  "ai": -9.318,
+  "taste": -1.694,
+  "variety": 0.646,
+  "repetition": 0.004,
+  "stock": 8.702,
+  "words": 361.167,
+  "flagged_ai": 0.0,
+  "n": 48
+ },
+ "books_1.0_rep_n4 | books | first sample": {
+  "ai": -7.745,
+  "taste": -1.23,
+  "variety": 0.639,
+  "repetition": 0.004,
+  "stock": 10.502,
+  "words": 346.85,
+  "flagged_ai": 0.025,
+  "n": 40
+ },
+ "books_1.0_rep_n4 | books | reranked best of 4": {
+  "ai": -9.646,
+  "taste": -1.867,
+  "variety": 0.632,
+  "repetition": 0.003,
+  "stock": 10.887,
+  "words": 349.825,
+  "flagged_ai": 0.0,
+  "n": 40
+ },
+ "books_t07_rep105 | wp": {
+  "ai": -2.11,
+  "taste": 1.7,
+  "variety": 0.528,
+  "repetition": 0.03,
+  "stock": 9.933,
+  "words": 334.062,
+  "flagged_ai": 0.25,
+  "n": 48
+ },
+ "books_t08_rep105 | wp": {
+  "ai": -4.092,
+  "taste": 0.848,
+  "variety": 0.545,
+  "repetition": 0.02,
+  "stock": 11.652,
+  "words": 344.333,
+  "flagged_ai": 0.167,
+  "n": 48
+ },
+ "books_085_t08_rep105 | wp": {
+  "ai": -0.59,
+  "taste": 1.402,
+  "variety": 0.549,
+  "repetition": 0.021,
+  "stock": 12.15,
+  "words": 356.167,
+  "flagged_ai": 0.458,
+  "n": 48
+ },
+ "plan_base | wp": {
+  "ai": 16.326,
+  "taste": 2.413,
+  "variety": 0.63,
+  "repetition": 0.007,
+  "stock": 63.74,
+  "words": 387.854,
+  "flagged_ai": 1.0,
+  "n": 48
+ },
+ "plan_books_t08_rep105 | wp": {
+  "ai": -0.468,
+  "taste": 0.263,
+  "variety": 0.589,
+  "repetition": 0.013,
+  "stock": 41.052,
+  "words": 297.312,
+  "flagged_ai": 0.438,
+  "n": 48
+ },
+ "plan_books_t10_rep105 | wp": {
+  "ai": -2.208,
+  "taste": -0.272,
+  "variety": 0.61,
+  "repetition": 0.008,
+  "stock": 37.396,
+  "words": 315.375,
+  "flagged_ai": 0.312,
+  "n": 48
+ },
+ "books_t05_rep105 | wp": {
+  "ai": 0.129,
+  "taste": 1.668,
+  "variety": 0.511,
+  "repetition": 0.039,
+  "stock": 10.219,
+  "words": 331.854,
+  "flagged_ai": 0.479,
+  "n": 48
+ },
+ "books_t06_rep105 | wp": {
+  "ai": -1.298,
+  "taste": 1.09,
+  "variety": 0.51,
+  "repetition": 0.037,
+  "stock": 7.904,
+  "words": 338.062,
+  "flagged_ai": 0.438,
+  "n": 48
+ },
+ "books_t07 | wp": {
+  "ai": 1.337,
+  "taste": 2.201,
+  "variety": 0.426,
+  "repetition": 0.103,
+  "stock": 8.912,
+  "words": 328.625,
+  "flagged_ai": 0.688,
+  "n": 48
+ },
+ "human_t07_rep105 | wp": {
+  "ai": -3.081,
+  "taste": 1.73,
+  "variety": 0.478,
+  "repetition": 0.065,
+  "stock": 4.452,
+  "words": 329.438,
+  "flagged_ai": 0.188,
+  "n": 48
+ },
+ "base_t07 | wp": {
+  "ai": 14.979,
+  "taste": 3.292,
+  "variety": 0.611,
+  "repetition": 0.006,
+  "stock": 43.192,
+  "words": 383.875,
+  "flagged_ai": 1.0,
+  "n": 48
+ }
+}

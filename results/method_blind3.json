@@ -1,0 +1,51 @@
+{
+ "unedited": {
+  "prose": 3,
+  "coherence": 6.5,
+  "fit": 6.31,
+  "mean_rank": 3.44,
+  "ranked_first": 0.083,
+  "reads_ai": 1
+ },
+ "unedited t0.7": {
+  "prose": 3.08,
+  "coherence": 6.52,
+  "fit": 6.46,
+  "mean_rank": 3.48,
+  "ranked_first": 0.104,
+  "reads_ai": 1
+ },
+ "adapter t0.7 rep1.05": {
+  "prose": 4.19,
+  "coherence": 4.77,
+  "fit": 5.67,
+  "mean_rank": 2.88,
+  "ranked_first": 0.312,
+  "reads_ai": 0.729
+ },
+ "adapter t0.6 rep1.05": {
+  "prose": 3.94,
+  "coherence": 4.69,
+  "fit": 5.46,
+  "mean_rank": 3.42,
+  "ranked_first": 0.208,
+  "reads_ai": 0.833
+ },
+ "adapter t0.5 rep1.05": {
+  "prose": 4,
+  "coherence": 4.98,
+  "fit": 5.71,
+  "mean_rank": 3.23,
+  "ranked_first": 0.229,
+  "reads_ai": 0.833
+ },
+ "adapter t0.7 no rep": {
+  "prose": 3.42,
+  "coherence": 3.98,
+  "fit": 4.77,
+  "mean_rank": 4.56,
+  "ranked_first": 0.062,
+  "reads_ai": 0.979
+ },
+ "n_briefs": 48
+}

@@ -904,6 +904,108 @@
      "max": 100
     }
    ]
+  },
+  {
+   "id": "taste_heads",
+   "link": "Why AI rates AI prose highly",
+   "title": "The taste does not read from the six detection heads",
+   "body": "A cleaner test than switching heads off: while Gemma rates or labels a passage, the chosen heads' outputs are shifted on the passage tokens only, by the average human-minus-LLM difference for that head, so an LLM passage looks human to those heads and nothing else changes (60 held-out briefs). <b>Rating:</b> nothing moves. With all six heads shifted at four times the natural difference, Gemma's rating of its own stories goes from 7.91 to 7.88 and of human stories (shifted the other way) from 6.96 to 7.05. <b>Label:</b> a small effect in the right direction: its own stories are called AI 12% of the time instead of 5%, Claude's 18% instead of 7%, human stories 30% instead of 36%. Random heads and the weakest heads do nothing or move it slightly the other way. So the six heads carry the detectable “LLM-written” signal, contribute a little to the spoken label, and are not where the preference comes from. That agrees with the earlier steering result, where adding the direction at layer 8 moved ratings strongly and adding it at layer 20 did nothing: the taste reads earlier, lower-level representations of the prose than the mid-layer signal those heads build. A gradient-based search for where it does read is running."
+  },
+  {
+   "id": "taste_grad",
+   "link": "Why AI rates AI prose highly",
+   "title": "The taste has no handle: it is spread thinly through the early layers",
+   "body": "A gradient search for what the rating reads from (45 held-out briefs; the rating's gradient at every passage token, every second layer). <b>Where:</b> the sensitivity sits in layers 4 to 12 and peaks at layer 8, where a straight-line estimate explains 26% of the 1.2-point gap between Gemma's rating of LLM stories and human ones. From layer 16 on it explains 0%: by the time the six detection heads have built the readable “LLM-written” signal, the rating no longer listens to the passage through it. <b>Which direction:</b> none we have. The gradient's cosine with the LLM-vs-human direction is at most 0.05 at any layer, so the rating is not reading that direction. <b>Which features:</b> none that matter. The transcoder features with the largest estimated effect are low-layer features with no readable meaning, and removing the top 10, 30 or 60 of them while Gemma rates leaves everything where it was (human 6.72 → 6.90, Gemma 7.87 → 7.91; prefers Gemma's scene 74% → 76%). <b>What this means:</b> detection is a compact mid-layer circuit (six heads); the preference is not. It is a diffuse, mostly non-linear function of early word-level and phrase-level representations, the same ones the model writes with. That fits the surgery result: retraining how it writes left its taste unchanged, and there is no small set of features or heads to bake out. Changing the taste would take training on judgments, not an edit.",
+   "stats": [
+    {
+     "label": "peak layer",
+     "value": "8"
+    },
+    {
+     "label": "gap explained at layer 8",
+     "value": "26%"
+    },
+    {
+     "label": "cosine with LLM direction",
+     "value": "≤ 0.05"
+    },
+    {
+     "label": "effect of removing 60 features",
+     "value": "none"
+    }
+   ]
+  },
+  {
+   "id": "method_blind",
+   "link": "Making the prose better",
+   "title": "First prose recipe: passes every detector, fails blind readers",
+   "body": "The recipe: a rank-16 adapter trained on 333 published-novel scenes, a 1.1 repetition penalty, four samples per brief and the detector's favourite kept. <b>By detector it is a complete success:</b> 0% of its stories lean AI (unedited: 100%; human: 2%), word variety matches human, stock words drop from 42 to 9 per thousand. <b>By blind reading it is a failure.</b> Opus readers, given the project owner's prose standard and five unlabelled openings per brief (48 writing prompts, then 40 scene outlines from held-out books), scored 1–10. Writing prompts: unedited prose 2.7 / coherence 7.3; adapter 4.0 / 4.3; adapter + repetition penalty 3.7 / 3.6; full recipe 3.7 / 3.3; human 5.9 / 6.6. Scene outlines: unedited 3.1 / 6.7; adapter 3.9 / 4.0; full recipe 2.7 / 2.5; the author 8.7 / 9.0. The readers still called 88–100% of the adapter's text machine-written, and never ranked the full recipe first. <b>What happened:</b> the adapter did remove the stock prose (readers stopped complaining about rain, regret and Silas) but a 4B model sampling at the entropy of human prose cannot hold a thread, and each added step made it worse. The repetition penalty pushes it off its likeliest words; choosing by detector picks the least orderly sample, because to the detector disorder looks human. So detector scores are not a quality measure, and can be driven to zero by incoherence. Two repairs are being tested now: lower sampling temperature, and plan-then-write (the unedited model plans the beats, the adapter writes them).",
+   "stats": [
+    {
+     "label": "leaning AI by detector",
+     "value": "100% → 0%"
+    },
+    {
+     "label": "coherence, blind (prompts)",
+     "value": "7.3 → 3.3"
+    },
+    {
+     "label": "prose, blind (prompts)",
+     "value": "2.7 → 3.7"
+    },
+    {
+     "label": "ranked first, blind",
+     "value": "0 of 88"
+    }
+   ]
+  },
+  {
+   "id": "method_blind2",
+   "link": "Making the prose better",
+   "title": "Temperature is the repair; planning is not",
+   "body": "Second blind round, same 48 writing prompts, six unlabelled openings each. <b>Adapter at temperature 0.7</b> (repetition penalty 1.05, one sample, no picking): prose 3.9, coherence 4.9, fit 6.0; ranked above the unedited model in 33 of 48 briefs and the best machine text in 28 of 48. Unedited: prose 2.7, coherence 6.4, fit 6.1. Human: 5.9 / 6.3 / 6.2, ranked first 85% of the time. <b>Plan-then-write did not help.</b> Having the unedited model plan the beats and the adapter write them scored 3.5 / 4.5 and beat the unedited model in only 22 of 48: the plans come out as stiff scripts and the scene follows them stiffly. The unedited model writing from its own plan was the worst of all (2.4 prose). <b>Safety check for this adapter:</b> harmful requests complied with go from 12% to 16% for plain wording and from 14–21% to 22–25% for agent-style wording, the same small shift as the ordinary-answer control and nothing like the formal voice (55–81%). So the current best recipe is small and cheap: adapter trained on published prose, temperature 0.7, light repetition penalty, no detector-based picking. It is preferred to the unedited model about two times in three and is still well short of the human story. A final sweep around that temperature is running.",
+   "stats": [
+    {
+     "label": "preferred to unedited",
+     "value": "33 of 48"
+    },
+    {
+     "label": "prose (blind)",
+     "value": "2.7 → 3.9"
+    },
+    {
+     "label": "coherence (blind)",
+     "value": "6.4 → 4.9"
+    },
+    {
+     "label": "harmful complied, plain",
+     "value": "12% → 16%"
+    }
+   ]
+  },
+  {
+   "id": "method_final",
+   "link": "Making the prose better",
+   "title": "The prose recipe, as far as it goes",
+   "body": "Third blind round (fresh readers, 48 prompts, six unlabelled openings, no human story this time) to settle the settings. <b>Adapter at temperature 0.7 with repetition penalty 1.05</b> is again the best: prose 4.2, coherence 4.8, ranked first of six in 31% of briefs, ahead of the unedited model in 28 of 48 (61 of 96 over both rounds, 64%). Temperature 0.5 and 0.6 are no better (27 and 24 of 48). Without the repetition penalty it loops and falls below the unedited model (17 of 48). Lowering the unedited model's temperature changes nothing (prose 3.0 → 3.1): the stock prose is its likeliest output, not a sampling accident. <b>So the method is three lines:</b> train a rank-16 adapter on a few hundred scenes of prose you admire; write at temperature 0.7 with a 1.05 repetition penalty; check refusals before and after. It trades some coherence for a plainer, more specific voice, is preferred about two times in three, and is still well short of human. <b>The lesson worth more than the recipe:</b> never tune or select by detector. Every step that pleased the detector made blind readers like the text less. The write-up, standalone scripts and side-by-side samples (including the one where it did worst) are in <code>method/</code>.",
+   "stats": [
+    {
+     "label": "preferred to unedited",
+     "value": "61 of 96"
+    },
+    {
+     "label": "prose (blind)",
+     "value": "3.0 → 4.2"
+    },
+    {
+     "label": "coherence (blind)",
+     "value": "6.5 → 4.8"
+    },
+    {
+     "label": "training",
+     "value": "333 scenes, 15 min"
+    }
+   ]
   }
  ]
 }

@@ -1,0 +1,51 @@
+{
+ "unedited": {
+  "prose": 2.71,
+  "coherence": 6.38,
+  "fit": 6.1,
+  "mean_rank": 3.75,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "adapter t0.7": {
+  "prose": 3.94,
+  "coherence": 4.94,
+  "fit": 5.96,
+  "mean_rank": 2.83,
+  "ranked_first": 0.062,
+  "reads_ai": 0.854
+ },
+ "plan + unedited": {
+  "prose": 2.44,
+  "coherence": 6.02,
+  "fit": 5.48,
+  "mean_rank": 4.75,
+  "ranked_first": 0.0,
+  "reads_ai": 1
+ },
+ "plan + adapter t0.8": {
+  "prose": 3.5,
+  "coherence": 4.54,
+  "fit": 5.52,
+  "mean_rank": 3.88,
+  "ranked_first": 0.062,
+  "reads_ai": 1
+ },
+ "plan + adapter t1.0": {
+  "prose": 3.29,
+  "coherence": 4.02,
+  "fit": 5.19,
+  "mean_rank": 4.48,
+  "ranked_first": 0.021,
+  "reads_ai": 0.979
+ },
+ "human": {
+  "prose": 5.94,
+  "coherence": 6.33,
+  "fit": 6.15,
+  "mean_rank": 1.31,
+  "ranked_first": 0.854,
+  "reads_ai": 0
+ },
+ "n_briefs": 48
+}

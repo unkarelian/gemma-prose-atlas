@@ -36,6 +36,11 @@ Gemma wrote the same briefs as humans and other models: 340 r/WritingPrompts pro
 - A rank-16 LoRA trained on the human versions of half the briefs removes the habits on held-out prompts (rain openings 59% to 0%, stock words 43 to 4.8 per 1,000) and its stories are flagged as AI by an independent detector 2% of the time, the same as human stories.
 - The model's taste does not follow: it still prefers original-Gemma prose 77% of the time and rates its own new writing lowest. Scaling the weight change moves the writing smoothly in both directions and leaves the preference flat. Writing, taste and the label "human" were installed together by post-training and can be moved separately.
 
+**Making the prose better** (full write-up: [`code/method/METHOD.md`](code/method/METHOD.md))
+- A rank-16 adapter trained on 333 scenes of published prose, sampled at temperature 0.7 with a 1.05 repetition penalty, is preferred to the unedited model by blind readers in 61 of 96 comparisons. It trades coherence (6.5 to 4.8 out of 10) for a plainer voice (prose 3.0 to 4.2), and is still well short of the human story.
+- Detector scores are not a quality measure. The configuration that took "leaning AI" from 100% to 0% was the one blind readers liked least: to a detector, disorder looks human.
+- The model's preference for machine prose has no small handle. It reads from layers 4 to 12, not from the six detection heads and not along the LLM-vs-human direction, and removing the 60 most implicated features changes nothing.
+
 ## Method: transcoder-guided weight ablation
 
 Removes chosen transcoder features from a model by a closed-form, low-rank edit of MLP output weights. No gradient training and no examples of the desired behaviour: the inputs are feature ids and ordinary text.
@@ -60,7 +65,7 @@ Use: `python tcbake.py fit NAME features.json`, then `tcbake.apply(path, mode="b
 ## Layout
 
 - `code/pod/`: everything that runs on the GPU (corpus reading, feature selection, decision-point attribution, steering, judging, the mechanism and head analyses, LoRA training, the weight-ablation method).
-- `code/analysis/`, `code/build/`: local analysis and the site and atlas builders. `code/method/`: external-critic scoring and reranking for prose.
+- `code/analysis/`, `code/build/`: local analysis and the site and atlas builders. `code/method/`: the prose recipe (`METHOD.md`, `train.py`, `write.py`, `SAMPLES.md`) and the detector measurements.
 - `results/`: one JSON per experiment. `data/`: Gemma's stories for the writing prompts, the directions, per-feature statistics for all 557,056 features, feature examples, stories from the edited models.
 
 ## Not included
